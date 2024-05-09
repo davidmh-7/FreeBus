@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanza Movilidad Gipuzkoa S.A.</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="overflow-x-hidden">
+    <div
+        class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]">
+    </div>
+    <div class="w-1 h-1"></div>
+    <div class="pt-32">
+        <div class="relative mx-auto flex max-w-2xl flex-col items-center">
+            <div class="mb-8 flex">
+                <a href="https://github.com/ibelick/background-snippets" target="_blank" rel="noopener noreferrer"
+                    class="inline-flex">
+                    <span class="relative inline-block overflow-hidden rounded-full p-[1px]">
+                        <span
+                            class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#a9a9a9_0%,#0c0c0c_50%,#a9a9a9_100%)] dark:bg-[conic-gradient(from_90deg_at_50%_50%,#171717_0%,#737373_50%,#171717_100%)]"></span>
+                        <div
+                            class="inline-flex h-full w-full cursor-pointer justify-center rounded-full bg-white px-3 py-1 text-xs font-medium leading-5 text-slate-600 backdrop-blur-xl dark:bg-black dark:text-slate-200">
+                            Nuevas Actualizaciones ⚡️
+                            <span class="inline-flex items-center pl-2 text-black dark:text-white">
+                                Leer Más
+                                <!-- -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="pl-0.5 text-black dark:text-white">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </span>
+                </a>
+            </div>
+            <h2 class="text-center text-3xl font-medium text-gray-900 dark:text-gray-50 sm:text-6xl">
+                Rapido y Gratis,
+                <!-- -->
+                <span
+                    class="animate-text-gradient inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">Tickets
+                    lurraldebus</span>
+            </h2>
+            <p class="mt-6 text-center text-lg leading-6 text-gray-600 dark:text-gray-200">
+                ¡Obtén tus boletos GRATIS para viajar por Euskadi en los autobuses de 
+                <!-- -->
+                <span class="cursor-wait opacity-70">Lurraldebus</span>
+                de forma rápida y sencilla!
+            </p>
+            <div class="mt-10 flex gap-4">
+                <a href="https://github.com/davidmh-7" target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center">
+
+                    <button
+                        class="w-24 h-10 bg-gray-600 text-white rounded-md  text-sm font-medium transition hover:scale-110 hover:shadow-lg">
+                        Github</button>
+                </a>
+                <a href="">
+                <button
+                    class="w-24 h-10 bg-gray-400 text-white rounded-md text-sm font-medium transition hover:scale-110 hover:shadow-lg">Donaciones</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <div class="w-2/3  border border-gray-200 mt-20" id="filtrarMenu">
+            <form action="V.1/impresion.html" method="POST">
+                <div class="p-6">
+                    <div class="grid gap-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    for="fechaInicio">
+                                    Dni
+                                </label>
+                                <input
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                    id="fechaInicio" name="DNI" type="text" value="" placeholder="ejemplo: 45623263L"/>
+                            </div>
+                            <div>
+                                <label
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    for="TextoLibre">
+                                   LOCALIZADOR <span class="text-xs ml-2">(Sirve un localizador antiguo)</span> 
+                                </label>
+                                <input
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                    id="TextoLibre" name="localizador" value="" placeholder="ejemplo: 1911803037"/>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    for="fechaInicio">
+                                    Fecha Salida
+                                </label>
+                                <input
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                    id="fechaInicio" name="fechaSalida" type="date" value="" />
+                            </div>
+                            <div>
+                                <label
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    for="TextoLibre">
+                                    Numero de tarjeta "MUGI"
+                                </label>
+                                <input
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                    id="TextoLibre" name="mugi" value="" placeholder="ejemplo: 3199503268"/>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    for="origen">
+                                    Origen
+                                </label>
+                                <select
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                    id="origen" name="origen" onchange="updateDestino()">
+                                    <option value="0">Seleccione el origen</option>
+                                    <option value="DONOSTIA-SAN SEBASTIAN">DONOSTIA-SAN SEBASTIAN</option>
+                                    <option value="BILBAO">BILBAO</option>
+                                    <option value="AEROPUERTO BILBAO">AEROPUERTO BILBAO</option>
+                                    <option value="VITORIA-GASTEIZ">VITORIA-GASTEIZ</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    for="destino">
+                                    Destino
+                                </label>
+                                <select
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                                    id="destino" name="destino">
+                                    <option value="0">Seleccione el destino</option>
+                                    <option value="DONOSTIA-SAN SEBASTIAN">DONOSTIA-SAN SEBASTIAN</option>
+                                    <option value="BILBAO">BILBAO</option>
+                                    <option value="AEROPUERTO BILBAO">AEROPUERTO BILBAO</option>
+                                    <option value="VITORIA-GASTEIZ">VITORIA-GASTEIZ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label
+                                    class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    for="destino">
+                                    Hora
+                                </label>
+                                <select class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" id="horaSalida" name="horaSalida" onchange="updateDestino()">
+                                    <option value="0">Seleccione la hora de salida</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                </select>
+                                   
+                            </div>
+                            <label
+                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                            for="destino">
+                            
+                        </label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex justify-end mb-4">
+                    <button type="submit"
+                        class="w-24 h-10 bg-gray-600 text-white rounded-md mr-7 text-sm font-medium transition hover:scale-110 hover:shadow-lg " >Imprimir</button>
+                </div>
+            
+            </form>
+        </div>
+    </div>
+
+    <div class="w-1 h-1 mt-64"></div>
+    <!-- JS -->
+    <script src="js/destinos.js"></script>
+</body>
+
+</html>
