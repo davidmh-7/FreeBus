@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanza Movilidad Gipuzkoa S.A.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+  *{ 
+    --font-sans: 'Inter';}
+ 
+</style>
+<body>
+
+<div class="rounded-lg border bg-card text-card-foreground shadow-sm mx-auto max-w-sm mt-64" data-v0-t="card">
+  <div class="flex flex-col p-6 space-y-1">
+    <h3 class="whitespace-nowrap tracking-tight text-2xl font-bold">Iniciar sesión</h3>
+    <p class="text-sm text-muted-foreground opacity-70">
+      Ingresa tu correo electrónico a continuación para iniciar sesión o <a href="" class="underline inline-block hover:opacity-80">registrate</a> para acceder a tu cuenta.
+    </p>
+  </div>
+  <div class="p-6">
+    <div class="space-y-4">
+      <div class="space-y-2">
+        <label
+          class="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="email"
+        >
+          Correo electrónico
+        </label>
+        <input
+          class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+          id="email"
+          placeholder="lurraldebus@gmail.com"
+          required=""
+          type="email"
+        />
+      </div>
+      <div class="space-y-2">
+        <div class="flex items-center">
+          <label
+            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+            for="password"
+          >
+            Contraseña
+          </label>
+          <a class="ml-auto inline-block text-xs underline" href="#">
+            ¿Olvidaste tu contraseña?
+          </a>
+        </div>
+        <input
+          class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pr-10"
+          required=""
+          placeholder="Contraseña"
+          type="password"
+        />
+      </div>
+      <button
+        class="inline-flex text-white transition hover:scale-105 hover:shadow-lg  items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+        type="submit" style="background-color: #18181B;" 
+      >
+        Iniciar sesión
+      </button>
+    </div>
+
+  </div>
+</div>
+  <!-- Iconos -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
